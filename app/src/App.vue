@@ -20,24 +20,9 @@ export default {
   },
   data (){
     return {
-      mess : process.env.VUE_APP_TITLE,
-      products : []
+      mess : process.env.VUE_APP_TITLE
     }
-  },
-  created (){
-this.products= this.loadprod();
-  },
-  methods: {
- loadprod() {
-   return [
-     "prod1",
-     "prod2",
-               "prod1"
-   ]
- }
-  }
-    
-  
+  }  
 }
 
 </script>
